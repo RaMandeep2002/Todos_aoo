@@ -11,7 +11,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: #ffffff;
+    /* color: #ffffff;
+    -webkit-box-shadow: 16px 16px 47px #a4afaf, -16px -16px 47px #ffffff;
+box-shadow: 16px 16px 47px #a4afaf, -16px -16px 47px #ffffff; */
 }
 
 
@@ -24,6 +26,7 @@ li {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  
 }
     
 svg{
