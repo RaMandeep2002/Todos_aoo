@@ -8,6 +8,7 @@ const TodosList = ({
   completeTodoItem,
   updateTodoItem,
 }) => {
+  // const currTime = new Date().toLocaleTimeString();
   return (
     <div className="todo-list">
       <li style={{ textDecoration: item.complete ? 'line-through' : '' }}>
