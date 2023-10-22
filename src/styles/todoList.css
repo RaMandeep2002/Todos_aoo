@@ -1,0 +1,36 @@
+.todo-list{
+    margin-top: 16px;
+    width: 100rm;
+    height: 85px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-top:12px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+li {
+  color: black;
+  margin-left: 5rem;
+  font-size:30px;
+  list-style: none;
+  /* font-family: Montserrat; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+    
+svg{
+  width: 16px;
+height: 18px;
+}
+
+#btns{
+  margin-right: 3.25rem;
+}

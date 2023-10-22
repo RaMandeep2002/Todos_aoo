@@ -1,0 +1,23 @@
+input{
+    width:19.25rem;
+height: 2.3125rem;
+border-radius: 0.5rem;
+border: 1px solid #000;
+padding-left: 15px;
+background: #FFF;
+}
+input::placeholder {
+    color: #C4C4C4;
+
+    /* padding-left: 15px; */
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: normal;
+  }
+button{
+    margin-left: 15px;
+    width: 6.4375rem;
+height: 2.75rem;
+border-radius: 0.5rem;
+background: #FEAF00;
+}
