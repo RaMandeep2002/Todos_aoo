@@ -1,8 +1,8 @@
 import React from 'react';
-import "../styles/todoInput.css"
+import '../styles/todoInput.css';
 const TodosInput = ({ createTodoItem }) => {
   const [value, setValue] = React.useState('');
-
+ 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (value === '') {

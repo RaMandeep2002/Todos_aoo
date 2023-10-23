@@ -31,7 +31,7 @@ function App() {
   const updateTodoItem = (index) => {
     const newTodoItems = [...todoItems];
     const item = newTodoItems[index];
-    let newItem = prompt(`Update ${item.todo}?`, item.todo);
+    let newItem ="<input  value={this.state.todoString} onChange={(e) => this.onChange(e)}/> <button  onClick={(e) =>this.onSubmit(e)}> Add </button>";
     let todoObj = { todo: newItem, complete: false };
     newTodoItems.splice(index, 1, todoObj);
     if (newItem === null || newItem === '') {
@@ -43,7 +43,7 @@ function App() {
   };
   return (
     <div className="App">
-      <h1>Todos app ✍ </h1>
+      <h1>Todos app <span>✍ </span></h1>
       <TodosInput createTodoItem={createTodoItem} />
       {todoItems.map((items, index) => (
         <TodosList
