@@ -45,7 +45,8 @@ function App() {
     <div className="App">
       <h1>
         Todos app <span>✍ </span>
-      </h1><afasfgfdag></afasfgfdag>
+      </h1>
+      <h1>asdfasdf</h1>
       <TodosInput createTodoItem={createTodoItem} />
       {todoItems.map((items, index) => (
         <TodosList
